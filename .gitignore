@@ -1,0 +1,21 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files (CRITICAL to ignore)
+*.tfstate
+*.tfstate.*
+
+# Private key files
+*.pem
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Ignore .tfvars files if they contain sensitive data (standard practice)
+*.tfvars
+*.tfvars.json
+# (Note: You can explicitly allow public ones by adding !example.tfvars later)
+
+# Lock files (per your request)
+.terraform.lock.hcl
